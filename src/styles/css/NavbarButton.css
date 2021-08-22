@@ -1,0 +1,53 @@
+.navbar-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: rgba(128, 128, 128, 0) 1px solid;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: white;
+  margin-right: 1rem;
+}
+
+.navbar-button img {
+  width: 60%;
+}
+
+.navbar-button:focus {
+  border: gray 1px solid;
+  -webkit-box-shadow: 0 0 0 1px #bfbfbf;
+          box-shadow: 0 0 0 1px #bfbfbf;
+  -webkit-animation: anim-shadow 0.3s forwards;
+          animation: anim-shadow 0.3s forwards;
+}
+
+@-webkit-keyframes anim-shadow {
+  100% {
+    -webkit-box-shadow: 0 0 50px 20px rgba(191, 191, 191, 0);
+            box-shadow: 0 0 50px 20px rgba(191, 191, 191, 0);
+    border: rgba(128, 128, 128, 0) 1px solid;
+  }
+}
+
+@keyframes anim-shadow {
+  100% {
+    -webkit-box-shadow: 0 0 50px 20px rgba(191, 191, 191, 0);
+            box-shadow: 0 0 50px 20px rgba(191, 191, 191, 0);
+    border: rgba(128, 128, 128, 0) 1px solid;
+  }
+}
+/*# sourceMappingURL=NavbarButton.css.map */
